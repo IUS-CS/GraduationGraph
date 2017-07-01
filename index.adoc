@@ -1,0 +1,10 @@
+= Graduation Path for Computer Science majors
+:icons: font
+
+== Math/Science Option
+
+image:MathSci.dot.png[Math/Science Graph]
+
+== Information Systems Option
+
+image:InfoSys.dot.png[Information Systems Graph]
