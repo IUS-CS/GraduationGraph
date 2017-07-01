@@ -1,0 +1,5 @@
+= Graduation Graph
+
+http://creativecommons.org/licenses/by-sa/4.0/[image:https://i.creativecommons.org/l/by-sa/4.0/80x15.png[Creative Commons License CC-SA-BY-4.0]]
+
+This is a resource intended to assist IU Southeast Computer Science students in visualizing their degree requirements.
