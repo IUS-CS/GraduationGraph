@@ -10,7 +10,7 @@ fontsize=16
 style="solid"
 labelloc=b label="\nPlus two B/C/P-4XX classes"
 
-A201
+A201 [style=dashed]
 C201
 C202
 C251
@@ -23,11 +23,12 @@ C455
 P445
 P446
 B461
-W234orW290 [label="W234 or W290"]
+W234orW290 [label="W234 or W290"] 
 M120
 }
 
-A201->C201
+A201->C201 [style=dashed]
+W234orW290->C201 [style=invis]
 C201->C202
 C201->C251
 C202->C335
