@@ -1,17 +1,17 @@
 digraph G {
 node[style=solid]; rankdir=TB;
 node [shape=record]
+layout="dot"
 
 labelloc=t
 fontsize=24
-label="DRAFT Computer Science Math/Science\n"
+label="DRAFT Computer Science Cybersecurity\n"
 
 subgraph cluster0 {
 fontsize=16
 style="solid"
-labelloc=b label="\nPlus two B/C/P-4XX classes"
 
-
+C437->C311 [style=invis]
 W234orW290->C201 [style=invis]
 A201 [style=dashed]
 C104
@@ -19,16 +19,19 @@ W234orW290 [label="W234 or W290"]  {rank="max";}
 C201
 C202
 C251
-C335
-C343
-C321
-C346
-C311
-P436
-C437
-C455
-P445
-P446
+C335 [group=1]
+C343 [group=1]
+C321 [group=1]
+C346 [group=1]
+B438 [group=2]
+B439 [group=2]
+P436 [group=2]
+C437 [group=2]
+C455 [group=2]
+P445 [group=3]
+P446 [group=3]
+C407 [group=2]
+C439 [group=2]
 C463orB498 [label="C463 or B498"]
 M216
 }
@@ -37,6 +40,10 @@ A201->C201 [style=dashed]
 C201->C202
 C201->C251
 C202->C335
+C202->C407
+C202->B438
+B438->B439
+C335->C439
 C251->C335
 C251->C343
 C202->C343

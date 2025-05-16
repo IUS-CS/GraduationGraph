@@ -1,9 +1,10 @@
 digraph G {
 node[style=solid]; rankdir=TB;
+node [shape=record]
 
 labelloc=t
 fontsize=24
-label="Computer Science Information Systems\n"
+label="DRAFT Computer Science Information Systems\n"
 
 subgraph cluster0 {
 fontsize=16
@@ -11,11 +12,13 @@ style="solid"
 labelloc=b label="\nPlus two B/C/P-4XX classes"
 
 A201 [style=dashed]
+C104
 C201
 C202
 C251
 C335
 C343
+C321
 C346
 C311
 B438
@@ -35,7 +38,8 @@ C202->C335
 C251->C335
 C251->C343
 C202->C343
-C343->C346
+C202->C321
+C321->C346
 C202->C311
 C335->C311
 M120->C455
