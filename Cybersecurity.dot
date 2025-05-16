@@ -5,7 +5,7 @@ layout="dot"
 
 labelloc=t
 fontsize=24
-label="DRAFT Computer Science Cybersecurity\n"
+label="Computer Science Cybersecurity\n"
 
 subgraph cluster0 {
 fontsize=16
@@ -32,6 +32,8 @@ P445 [group=3]
 P446 [group=3]
 C407 [group=2]
 C439 [group=2]
+C463 [group=2]
+B498 [group=3]
 C463orB498 [label="C463 or B498"]
 M216
 }
@@ -42,6 +44,7 @@ C201->C251
 C202->C335
 C202->C407
 C202->B438
+C202->B498
 B438->B439
 C335->C439
 C251->C335
@@ -53,12 +56,13 @@ C202->C321
 C335->C311
 C335->C437
 C343->P436
-C343->C463orB498
+C343->C463
+C463->C463orB498
+B498->C463orB498
 C335->P436
 M216->C455
 C343->C455
 C346->P445
 W234orW290->P445
 P445->P446
-
 }

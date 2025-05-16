@@ -4,13 +4,12 @@ node [shape=record]
 
 labelloc=t
 fontsize=24
-label="DRAFT Computer Science Math/Science\n"
+label="Computer Science Math/Science\n"
 
 subgraph cluster0 {
 fontsize=16
 style="solid"
 labelloc=b label="\nPlus two B/C/P-4XX classes"
-
 
 W234orW290->C201 [style=invis]
 A201 [style=dashed]
@@ -29,6 +28,8 @@ C437
 C455
 P445
 P446
+C463 [group=2]
+B498 [group=3]
 C463orB498 [label="C463 or B498"]
 M216
 }
@@ -37,6 +38,7 @@ A201->C201 [style=dashed]
 C201->C202
 C201->C251
 C202->C335
+C202->B498
 C251->C335
 C251->C343
 C202->C343
@@ -46,12 +48,13 @@ C202->C321
 C335->C311
 C335->C437
 C343->P436
-C343->C463orB498
+C343->C463
+C463->C463orB498
+B498->C463orB498
 C335->P436
 M216->C455
 C343->C455
 C346->P445
 W234orW290->P445
 P445->P446
-
 }

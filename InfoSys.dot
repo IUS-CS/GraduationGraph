@@ -4,7 +4,7 @@ node [shape=record]
 
 labelloc=t
 fontsize=24
-label="DRAFT Computer Science Information Systems\n"
+label="Computer Science Information Systems\n"
 
 subgraph cluster0 {
 fontsize=16
